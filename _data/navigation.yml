@@ -1,8 +1,5 @@
 # main links
 main:
-  - title: "Home"
-    url: https://shreyas789.github.io/
-    description: Website Home
   - title: "About Me"
     url: /content/about
     description: Personal information, Educational qualification, Interests
@@ -15,3 +12,6 @@ main:
   - title: "Book Reviews"
     url: /content/book-reviews
     description: Reviews of my favourite books, and some recommendations
+  - title: Blog
+    url: https://shreyasnadkarni.medium.com
+    description: My articles on Medium related to life, philosophy and well-being
