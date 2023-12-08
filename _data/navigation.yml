@@ -1,7 +1,38 @@
 # main links
 main:
-  - title: "Home"
-    url: https://shreyas789.github.io
+  - title: "Academics"
+    url: /content/academics/
+    description: Courses undertaken at IIT Bombay
+  - title: "Projects"
+    url: /content/projects/
+    description: Technical projects undertaken by me
+  - title: "Resume"
+    url: /content/resume-2-page.pdf
+    description: My resumes
+  - title: "Philosophy"
+    url: /content/philosophy/
+    description: Core principles on which I base my personal and professional life
+  - title: "Reading"
+    description: Reviews and recommendations of my favourite books
+    sublinks:
+      - title: "Book Reviews"
+        url: /content/book-reviews
+      - title: "Book Recommendations"
+        url: /content/book-reviews/recommendations.html
+      - title: "Goodreads"
+        url: "https://www.goodreads.com/user/show/145913296-shreyas-nadkarni"
+  - title: "Writing"
+    url: https://shreyasnadkarni.medium.com
+    description: My articles on Medium related to life, philosophy and well-being
+  - title: "Quality Content"
+    sublinks:
+      - title: "Favourite YouTube Videos"
+        url: /content/quality-content/youtube.html
+      - title: "Favourite Blogs"
+        url: /content/quality-content/blogs.html
+      - title: "Favourite People"
+        url: /content/quality-content/people.html
+
     
 docs:
   - title: "Academics"
@@ -18,7 +49,7 @@ docs:
     description: Core principles on which I base my personal and professional life
   - title: "Reading"
     description: Reviews and recommendations of my favourite books
-    children:
+    sublinks:
       - title: "Book Reviews"
         url: /content/book-reviews
       - title: "Book Recommendations"
