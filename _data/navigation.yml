@@ -2,6 +2,7 @@
 main:
   - title: "Home"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    description: Website Home
   - title: "About Me"
     url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Academics"
