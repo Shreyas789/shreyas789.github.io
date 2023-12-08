@@ -285,3 +285,4 @@ defaults:
     values:
       sidebar:
           nav: "docs"
+      author_profile: true
