@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Home"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: https://shreyas789.github.io/
     description: Website Home
   - title: "About Me"
-    url: /about/
+    url: https://shreyas789.github.io//about/
   - title: "Academics"
-    url: /docs/
+    url: /about/
   - title: "Resume"
     url: /collection-archive/
   - title: "Book Reviews"
