@@ -1,5 +1,9 @@
 # main links
-sidebar:
+main:
+  - title: "Home"
+    url: https://shreyas789.github.io
+    
+sidebar-links:
   - title: "Academics"
     url: /content/academics/
     description: Courses undertaken at IIT Bombay
