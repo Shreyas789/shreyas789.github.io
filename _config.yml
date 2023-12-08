@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Shreyas Nadkarni"
-  avatar           : "/docs/assets/images/bio-photo.jpg" # path of avatar image
+  avatar           : # "/docs/assets/images/bio-photo.jpg" # path of avatar image
   bio              : "B.Tech-M.Tech, IIT Bombay, 2024"
   location         : "Mumbai, India"
   email            : "shreyasnadkarni789@gmail.com"
