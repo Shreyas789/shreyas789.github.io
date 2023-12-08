@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "neon" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome to my Website!"
+title                    : "Shreyas Nadkarni"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Shreyas Nadkarni"
@@ -24,9 +24,9 @@ description              : "Aspiring Data Scientist, ML Enthusiast"
 url                      : "https://shreyas789.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
-logo                     : "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. 
-masthead_title           : "My Website" # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png" 
+logo                     :  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Welcome to my website!" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
