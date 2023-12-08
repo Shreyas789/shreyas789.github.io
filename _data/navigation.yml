@@ -5,7 +5,7 @@ main:
     description: Website Home
   - title: "About Me"
     url: /content/about
-    
+    description: Personal information, Educational qualification, Interests
   - title: "Academics"
     url: /content/academics/
     description: Courses undertaken at IIT Bombay
