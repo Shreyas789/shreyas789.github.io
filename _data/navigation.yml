@@ -14,7 +14,7 @@ main:
     description: Core principles on which I base my personal and professional life
   - title: "Reading"
     description: Reviews and recommendations of my favourite books
-    sublinks:
+    subfolderitems:
       - title: "Book Reviews"
         url: /content/book-reviews
       - title: "Book Recommendations"
@@ -25,7 +25,7 @@ main:
     url: https://shreyasnadkarni.medium.com
     description: My articles on Medium related to life, philosophy and well-being
   - title: "Quality Content"
-    sublinks:
+    subfolderitems:
       - title: "Favourite YouTube Videos"
         url: /content/quality-content/youtube.html
       - title: "Favourite Blogs"
@@ -49,7 +49,7 @@ docs:
     description: Core principles on which I base my personal and professional life
   - title: "Reading"
     description: Reviews and recommendations of my favourite books
-    sublinks:
+    children:
       - title: "Book Reviews"
         url: /content/book-reviews
       - title: "Book Recommendations"
