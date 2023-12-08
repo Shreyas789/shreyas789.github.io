@@ -286,3 +286,10 @@ defaults:
       sidebar:
           nav: "docs"
       author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sidebar:
+          nav: "docs"
+      author_profile: true
