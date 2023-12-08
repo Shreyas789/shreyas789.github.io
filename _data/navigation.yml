@@ -4,10 +4,14 @@ main:
     url: https://shreyas789.github.io/
     description: Website Home
   - title: "About Me"
-    url: https://shreyas789.github.io//about/
+    url: /content/about
+    
   - title: "Academics"
-    url: /about/
+    url: /content/academics/
+    description: Courses undertaken at IIT Bombay
   - title: "Resume"
-    url: /collection-archive/
+    url: /content/resume/
+    description: My resumes
   - title: "Book Reviews"
-    url: /sitemap/
+    url: /content/book-reviews
+    description: Reviews of my favourite books, and some recommendations
