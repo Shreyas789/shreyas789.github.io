@@ -3,7 +3,20 @@
 
 @import "main";
 
+head{
+  font-family: cursive;
+  background-color: black;
+  color: white;
+  border-bottom: 5px solid red;
+}
 
 body{
+  font-family: system-ui;
+  background-color: white;
+  color: gray;
+}
+
+hr{
   color: red;
+  height: 5px;
 }
