@@ -44,6 +44,9 @@ div.float-child {
 img.my-photo{
   border-radius: 25%;
 }
+img.header-image{
+  width: 100%;
+}
 
 button.big{
   min-height:60px; 
