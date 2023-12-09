@@ -3,10 +3,12 @@
 
 @import "main";
 
-div.masthead{
+div.masthead, div.masthead__inner_wrap, div.masthead__menu , nav.greedy-nav {
   font-family: cursive;
   background-color: black;
   color: white;
+}
+div.masthead{
   border-bottom: 5px solid red;
 }
 
