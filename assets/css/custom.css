@@ -48,8 +48,8 @@ img{
 button{
   height: 10%;
   width: 50%;
-  background-color: pink;
-  color: brown;
+  background-color: "yellow";
+  color: "brown";
   border-radius: 25%;
 }
 
