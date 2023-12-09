@@ -11,8 +11,7 @@ div.masthead{
 }
 div.masthead__inner_wrap, div.masthead__menu , nav#site-nav.greedy-nav, ul.visible-links, li.masthead__menu-item {
   font-family: system-ui;
-  background-color: gray;
-  color: white;
+  color: orange;
   display: block
 }
 
