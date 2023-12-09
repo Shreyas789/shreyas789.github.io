@@ -2,6 +2,8 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{'/assets/css/custom.css' | absolute_url}}">
+<script src="{{ base.url | prepend: site.url }}/assets/js/custom.js"></script>
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
