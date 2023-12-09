@@ -6,7 +6,7 @@
 div.masthead{
   border-bottom: 5px solid red;
 }
-div.masthead__inner_wrap, div.masthead__menu , nav#site-nav.greedy-nav, ul.visible-links, li.masthead__menu-item {
+li.masthead__menu-item{
   font-family: system-ui;
   color: red;
 }
@@ -17,7 +17,7 @@ body{
   color: #050505;
 }
 
-h1, h2{
+h1,h2{
   color: red;
 }
 
@@ -26,6 +26,10 @@ hr{
   height: 5px;
 }
 
+section{
+  padding-top: 10px;
+  padding-bottom: 10px
+}
 div.float-container {
   width:100%;
   float: left;
