@@ -41,7 +41,7 @@ div.float-child {
     float: left;
 }
 
-img{
+img.my-photo{
   border-radius: 25%;
 }
 
