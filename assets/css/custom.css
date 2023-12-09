@@ -46,11 +46,12 @@ img{
 }
 
 button.big{
-  width: 80%;
-  height: 10vh;
+  min-height:30px; 
+  width:80%;
   float: center;
-  border: 2px solid brown;
-  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255,255,128,0.8);
   cursor: pointer;
 }
 
