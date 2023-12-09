@@ -52,3 +52,11 @@ button{
   color: brown;
   border-radius: 25%;
 }
+
+table{
+  width: 100%;
+}
+
+th{
+  background-color: lightgray;
+}
