@@ -16,6 +16,10 @@ body{
   color: #050505;
 }
 
+h1{
+  color: red;
+}
+
 hr{
   color: red;
   height: 5px;
