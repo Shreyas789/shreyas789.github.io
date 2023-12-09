@@ -3,12 +3,12 @@
 
 @import "main";
 
-div.masthead__inner_wrap, div.masthead__menu , nav#site-nav.greedy-nav {
+/* div.masthead__inner_wrap, div.masthead__menu , nav#site-nav.greedy-nav {
   font-family: cursive;
   background-color: black;
   color: white;
   display: block;
-}
+} */
 div.masthead{
   border-bottom: 5px solid red;
   font-family: cursive;
