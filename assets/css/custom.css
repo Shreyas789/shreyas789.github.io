@@ -37,7 +37,7 @@ div.float-container {
 }
 
 div.float-child {
-    width: 40%;
+    width: 50%;
     float: left;
     padding: 20px;
 }  
