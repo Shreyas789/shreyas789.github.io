@@ -24,7 +24,7 @@ body{
 
 h1{
   color: red;
-  padding: 0.1vw;
+  padding: 10px;
 }
 
 hr{
@@ -32,12 +32,11 @@ hr{
   height: 5px;
 }
 
-.float-container {
-    border: 3px solid #fff;
+div.float-container {
     padding: 20px;
 }
 
-.float-child {
+div.float-child {
     width: 50%;
     float: left;
     padding: 20px;
