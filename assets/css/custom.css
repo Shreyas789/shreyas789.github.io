@@ -6,7 +6,6 @@
 div.masthead{
   border-bottom: 5px solid red;
   background-color: black;
-  color: white;
   display: block;
 }
 div.masthead__inner_wrap, div.masthead__menu , nav#site-nav.greedy-nav, ul.visible-links, li.masthead__menu-item {
