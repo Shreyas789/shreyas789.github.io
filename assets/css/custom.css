@@ -46,7 +46,9 @@ img{
 }
 
 button.big{
-  width: 100%;
+  width: 80%;
+  float: center;
+  border: 2px solid brown;
   background-color: yellow;
   cursor: pointer;
 }
