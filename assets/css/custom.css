@@ -11,6 +11,7 @@ div.masthead{
 }
 div.masthead__inner_wrap, div.masthead__menu , nav#site-nav.greedy-nav {
   font-family: cursive;
+  background-color: black;
   color: white;
 }
 
