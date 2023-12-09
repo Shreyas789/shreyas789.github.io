@@ -3,18 +3,18 @@
 
 @import "main";
 
-div.masthead{
-  border-bottom: 5px solid red;
-}
-li.masthead__menu-item{
-  font-family: system-ui;
-  color: red;
-}
-
 body{
   font-family: system-ui;
   background-color: white;
   color: #050505;
+}
+
+div.masthead{
+  border-bottom: 5px solid red;
+}
+ul.visible-links, li.masthead__menu-item{
+  font-family: system-ui;
+  color: red;
 }
 
 h1,h2{
