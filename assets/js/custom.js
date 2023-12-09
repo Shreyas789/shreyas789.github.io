@@ -24,6 +24,6 @@ function toggleElement(id1,id2,clicked) {
         y.style.display = "none";
     } else {
         x.style.display = "none";
-        y.style.display = "block;
+        y.style.display = "block";
     }
 }
