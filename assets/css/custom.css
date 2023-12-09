@@ -48,7 +48,7 @@ img{
 button.big{
   width: 100%;
   background-color: yellow;
-  border-radius: 15%;
+  cursor: pointer;
 }
 
 table{
