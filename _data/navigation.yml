@@ -12,7 +12,7 @@ main:
   - title: "Reading"
     description: Reviews and recommendations of my favourite books
     url: /content/book-reviews
-  - title: "Writing"
+  - title: "Blog"
     url: https://shreyasnadkarni.medium.com
     description: My articles on Medium related to life, philosophy and well-being
   - title: "Quality Content"
