@@ -41,8 +41,10 @@ div.float-child {
 }
 
 div.image-in-text{
-  width: 30vw;
+  width: 25vw;
   float: right;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
 }
 
 img.my-photo{
@@ -55,8 +57,6 @@ img.header-image{
 }
 img.book{
   width: 25vw;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
   float: right;
 }
 
