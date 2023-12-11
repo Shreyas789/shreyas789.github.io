@@ -41,12 +41,12 @@ div.float-container {
 } */
 
 div.image-in-text{
-  width: 40%;
+  width: 40vw;
   float: right;
 }
 
 img.my-photo{
-  width: 30%
+  width: 30vw;
   border-radius: 25%;
 }
 img.header-image{
