@@ -17,11 +17,11 @@ ul.visible-links, li.masthead__menu-item{
   color: red;
 }
 
-h1{
+h1, h2{
   color: red;
 }
 
-h2{
+h3{
   color: darkblue;
 }
 
@@ -66,7 +66,7 @@ img.book{
 
 button.big{
   min-height:60px; 
-  min-width: 300px;
+  min-width: 180px;
   width:50%;
   float: center;
   border: 3px solid rgba(128,64,0,0.8);
@@ -76,7 +76,7 @@ button.big{
 }
 button.big:hover{
   min-height:60px;
-  min-width: 300px;
+  min-width: 180px;
   width:50%;
   float: center;
   border: 3px solid rgba(128,64,0,0.8);
@@ -85,7 +85,7 @@ button.big:hover{
   cursor: pointer;
 }
 
-table{
+table, tr, th{
   width: 100vw;
 }
 
