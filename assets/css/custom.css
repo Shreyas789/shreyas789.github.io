@@ -64,6 +64,10 @@ img.book{
   float: right;
 }
 
+figcaption{
+  color: gray;
+}
+
 button.big{
   min-height:60px; 
   min-width: 180px;
