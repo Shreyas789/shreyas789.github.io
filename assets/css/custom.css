@@ -51,6 +51,9 @@ img.my-photo{
 img.header-image{
   width: 100vw;
 }
+img.book{
+  width: 25vw;
+}
 
 button.big{
   min-height:60px; 
