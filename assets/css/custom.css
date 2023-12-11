@@ -48,6 +48,7 @@ div.image-in-text{
 img.my-photo{
   width: 20vw;
   border-radius: 25%;
+  float: right;
 }
 img.header-image{
   width: 100vw;
@@ -56,6 +57,7 @@ img.book{
   width: 25vw;
   padding-left: 3vw;
   padding-bottom: 3vw;
+  float: right;
 }
 
 button.big{
