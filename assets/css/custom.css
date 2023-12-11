@@ -66,6 +66,8 @@ img.book{
 
 figcaption{
   color: gray;
+  float: center;
+  padding-top: 1px;
 }
 
 button.big{
