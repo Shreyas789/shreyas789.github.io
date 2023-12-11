@@ -40,6 +40,11 @@ div.float-child {
     float: left;
 }
 
+div.image-in-text{
+  width: 30%;
+  float:left;
+}
+
 img.my-photo{
   border-radius: 25%;
 }
