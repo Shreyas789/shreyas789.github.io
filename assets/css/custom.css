@@ -41,8 +41,8 @@ div.float-child {
 }
 
 div.image-in-text{
-  width: 30%;
-  float:left;
+  width: 25%;
+  float: right;
 }
 
 img.my-photo{
