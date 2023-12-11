@@ -31,12 +31,12 @@ section{
 }
 
 div.float-container {
-  width:100vw;
+  width:100%;
   float: left;
 }
 
 div.float-child {
-    width: 50vw;
+    width: 50%;
     float: left;
 }
 
@@ -46,14 +46,14 @@ div.image-in-text{
 }
 
 img.my-photo{
-  width: 25vw;
+  width: 20vw;
   border-radius: 25%;
 }
 img.header-image{
   width: 100vw;
 }
 img.book{
-  width: 30vw;
+  width: 25vw;
   padding-left: 3vw;
   padding-bottom: 3vw;
 }
