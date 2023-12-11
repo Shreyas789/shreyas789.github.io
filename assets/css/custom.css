@@ -35,10 +35,10 @@ div.float-container {
   float: left;
 }
 
-/* div.float-child {
+div.float-child {
     width: 50%;
     float: left;
-} */
+}
 
 div.image-in-text{
   width: 40%;
