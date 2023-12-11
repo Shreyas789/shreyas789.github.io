@@ -41,7 +41,7 @@ div.float-child {
 }
 
 div.image-in-text{
-  width: 25%;
+  width: 40%;
   float: right;
 }
 
@@ -52,7 +52,7 @@ img.header-image{
   width: 100vw;
 }
 img.book{
-  width: 25vw;
+  width: 35vw;
   padding-left: 3vw;
   padding-bottom: 3vw;
 }
