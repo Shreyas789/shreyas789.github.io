@@ -78,7 +78,9 @@ figcaption{
   color: gray;
   text-align: center;
   padding-top: 0px;
+  font-size: 1vw;
 }
+
 figcaption a{
   color: gray;
 }
