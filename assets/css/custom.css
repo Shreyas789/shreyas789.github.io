@@ -52,6 +52,13 @@ div.image-in-text, figure.image-in-text{
   padding-bottom: 3vw;
 }
 
+figure.acad-image{
+  width: 35vw;
+  float: right;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+}
+
 img.my-photo{
   width: 20vw;
   border-radius: 25%;
