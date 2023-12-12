@@ -98,7 +98,7 @@ button.big:hover{
 }
 
 table, tr, th{
-  width: 100vw;
+  width: 100%;
 }
 
 thead{
