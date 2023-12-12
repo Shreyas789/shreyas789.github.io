@@ -64,8 +64,8 @@ img.my-photo{
   border-radius: 25%;
   float: right;
 }
-img.header-image{
-  width: 100vw;
+figure.header-image, img.header-image{
+  width: 100%;
 }
 
 img.book{
@@ -74,7 +74,7 @@ img.book{
 }
 
 figcaption{
-  width: 100vw;
+  width: 100%;
   color: gray;
   text-align: center;
   padding-top: 0px;
