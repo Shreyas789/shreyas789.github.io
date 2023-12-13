@@ -53,13 +53,19 @@ div.image-in-text, figure.image-in-text{
 }
 
 div.book-article{
-  width: 45%;
+  width: 48%;
   min-width: 250px;
-  float: left;
+  float: center;
   border: 3px solid black;
   border-radius: 1vw;
   padding: 2vw;
-  margin: 1vw;
+  margin: 1%;
+}
+
+span.book-article-title{
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 figure.acad-image{
