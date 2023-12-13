@@ -52,6 +52,12 @@ div.image-in-text, figure.image-in-text{
   padding-bottom: 3vw;
 }
 
+div.book-article{
+  border-style: solid;
+  border-radius: 2vw;
+  border-color: green;
+}
+
 figure.acad-image{
   width: 35vw;
   float: right;
