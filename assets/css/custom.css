@@ -62,8 +62,9 @@ div.book-article{
   margin: 1%;
 }
 
-span.book-article-title{
+div.book-article-title{
   color: red;
+  font-weight: bold;
   font-size: 20px;
 }
 
