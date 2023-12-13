@@ -56,6 +56,8 @@ div.book-article{
   border-style: solid;
   border-radius: 2vw;
   border-color: green;
+  padding: 1vw;
+  margin: 1vw;
 }
 
 figure.acad-image{
