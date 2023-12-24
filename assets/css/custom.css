@@ -152,3 +152,8 @@ em{
   font-weight: bold;
   font-style: italic;
 }
+
+span.book-title{
+  font-style: italic;
+  color: darkgreen;
+}
