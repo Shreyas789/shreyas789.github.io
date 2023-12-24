@@ -5,6 +5,8 @@
 
 body{
   font-family: system-ui;
+  font-size: 2.5vh;
+  text-shadow: 0.25px 0.25px grey;
   background-color: white;
   color: rgba(60,40,40);
 }
@@ -17,13 +19,20 @@ ul.visible-links, li.masthead__menu-item{
   color: red;
 } */
 
-h1{color: red;}
-h2{color: red;}
-h3{color: darkblue;}
-
-hr{
-  color: red;
-  height: 5px;
+h1{
+  color: crimson;
+  text-shadow: 2px 2px pink;
+  font-size: 7vh;
+}
+h2{
+  color: crimson;
+  text-shadow: 1px 1px pink;
+  font-size: 5vh;
+}
+h3{
+  color: darkblue;
+  text-shadow: 0.5px 0.5px skyblue;
+  font-size: 3vh;
 }
 
 section{
@@ -31,8 +40,8 @@ section{
 }
 
 div.float-container {
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
   width: 100%;
   float: left;
 }
@@ -50,20 +59,41 @@ div.image-in-text, figure.image-in-text{
 }
 
 div.book-article{
+  background-color: rgb(240,255,255);
   width: 48%;
   min-width: 300px;
   float: left;
-  border: 3px solid black;
+  border: 2px solid  rgba(40,40,80);
   border-radius: 1vw;
   padding: 2vw;
   margin: 1%;
 }
 
 div.book-article-title{
-  color: red;
+  color: crimson;
+  text-shadow: 1px 1px pink;
   font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 2vw;
+  font-size: 3vh;
+  margin-bottom: 3vh;
+}
+
+a.read-more{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 1vh 2vh 1vh;
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  border: 1px solid darkorange;
+  border-radius: 0.8vh;
+}
+a.read-more:hover{
+  box-shadow: 3px 3px brown;
+  border: 1px solid brown;
+}
+a{
+  text-decoration: none;
 }
 
 figure.acad-image{
@@ -103,22 +133,26 @@ button.big{
   min-height: 50px; 
   min-width: 180px;
   width:50%;
+  margin-top: 2vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh; 
   float: center;
-  border: 2px solid darkblue;
+  border: 1px solid brown;
   border-radius: 5px;
-  background-color: cornsilk;
+  background-color: floralwhite;
   cursor: pointer;
+  box-shadow: 1px 1px brown;
 }
 button.big:hover{
-  border: 2px solid darkblue;
   outline: none;
-  background-color: floralwhite;
+  background-color: rgb(255, 255, 143);
+  box-shadow: 2px 2px brown;
   font-weight: bold;
 }
 button.big:focus{
-  border: 2px solid darkblue;
   outline: none;
-  background-color: honeydew;
+  background-color: rgb(255, 255, 143);
+  box-shadow: 2px 2px brown;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -129,17 +163,20 @@ button.recc-genre{
   border-radius: 5px;
   background-color: rgba(180,255,255,0.8);
   cursor: pointer;
-  margin-right: 0.5vw;
-  margin-bottom: 0.5vw;
-  padding: 0.8vw;
+  margin-right: 2vw;
+  margin-bottom: 1.5vh;
+  padding: 1vh;
+  box-shadow: 1px 1px darkcyan;
 }
 button.recc-genre:hover{
   outline: none;
   background-color: rgba(180,220,220,0.8);
+  box-shadow: 3px 3px darkcyan;
   font-weight: bold;}
 button.recc-genre:focus{
   outline: none;
   background-color: rgba(180,220,220,0.6);
+  box-shadow: 3px 3px darkcyan;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -154,6 +191,11 @@ em{
 }
 
 span.book-title{
-  font-style: italic;
-  color: darkgreen;
+  color: orangered;
+  font-size: 6vh;
+}
+
+span.author{
+  color: orangered;
+  font-size: 4vh;
 }
