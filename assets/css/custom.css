@@ -18,7 +18,7 @@ ul.visible-links, li.masthead__menu-item{
 } */
 
 h1{color: red;}
-h2{color: maroon;}
+h2{color: red;}
 h3{color: darkblue;}
 
 hr{
@@ -122,7 +122,6 @@ button.big:focus{
   font-weight: bold;
   text-decoration: underline;
 }
-
 
 button.recc-genre{
   float: left;
