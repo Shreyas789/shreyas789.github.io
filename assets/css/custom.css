@@ -1,29 +1,25 @@
 ---
 ---
 
-@import "main";
+/* @import "main"; */
 
 body{
   font-family: system-ui;
   background-color: white;
-  color: #050505;
+  color: rgba(60,40,40);
 }
 
-div.masthead{
+/* div.masthead{
   border-bottom: 5px solid red;
 }
 ul.visible-links, li.masthead__menu-item{
   font-family: system-ui;
   color: red;
-}
+} */
 
-h1, h2{
-  color: red;
-}
-
-h3{
-  color: darkblue;
-}
+h1{color: red;}
+h2{color: maroon;}
+h3{color: darkblue;}
 
 hr{
   color: red;
@@ -36,6 +32,7 @@ section{
 
 div.float-container {
   padding-top: 1vw;
+  padding-bottom: 1vw;
   width: 100%;
   float: left;
 }
@@ -103,30 +100,51 @@ figcaption a{
 }
 
 button.big{
-  min-height:60px; 
+  min-height: 50px; 
   min-width: 180px;
   width:50%;
   float: center;
-  border: 3px solid rgba(128,64,0,0.8);
-  border-radius: 15px;
-  background-color: rgba(255,255,128,0.8);
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  background-color: cornsilk;
   cursor: pointer;
 }
 button.big:hover{
-  min-height:60px;
-  min-width: 180px;
-  width:50%;
-  float: center;
-  border: 3px solid rgba(128,64,0,0.8);
-  border-radius: 15px;
-  background-color: rgba(255,200,96,0.8);
+  border: 2px solid darkblue;
+  outline: none;
+  background-color: floralwhite;
+  font-weight: bold;
+}
+button.big:focus{
+  border: 2px solid darkblue;
+  outline: none;
+  background-color: honeydew;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+button.recc-genre{
+  float: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(180,255,255,0.8);
   cursor: pointer;
+  margin-right: 0.5vw;
+  margin-bottom: 0.5vw;
+  padding: 0.8vw;
+}
+button.recc-genre:hover{
+  outline: none;
+  background-color: rgba(180,220,220,0.8);
+  font-weight: bold;}
+button.recc-genre:focus{
+  outline: none;
+  background-color: rgba(180,220,220,0.6);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-table, tr, th{
-  width: 100%;
-}
 
-thead{
-  background-color: lightgreen;
-}
+table, tr, th{width: 100%;}
+thead{background-color: lightgreen;}

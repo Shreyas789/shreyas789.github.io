@@ -16,14 +16,26 @@ function showElement(id) {
     }
 }
 
-function toggleElement(id1,id2,clicked) {
-    var x = document.getElementById(id1);
-    var y = document.getElementById(id2);
-    if (clicked === id1){
-        x.style.display = "block";
-        y.style.display = "none";
-    } else {
-        x.style.display = "none";
-        y.style.display = "block";
+function toggleElement(clicked, ids) {
+    let n = ids.length;
+    let idx = 0;
+    for (let i = 0; i < n; i++){
+        if (ids[i] === clicked){
+            idx = i;
+        }
+    }
+    for (let i = 0; i < n; i++){
+        if (i === idx){
+            var x = document.getElementById(ids[i]);
+            if (x.style.display === "block"){
+                x.style.display = "none"
+            }
+            else{
+                x.style.display = "block";
+            }
+        }    
+        else{
+            document.getElementById(ids[i]).style.display = "none";
+        }
     }
 }
