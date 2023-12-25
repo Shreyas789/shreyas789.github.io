@@ -22,17 +22,17 @@ ul.visible-links, li.masthead__menu-item{
 h1{
   color: crimson;
   text-shadow: 2px 2px pink;
-  font-size: 7vh;
+  /* font-size: 5vw; */
 }
 h2{
   color: crimson;
   text-shadow: 1px 1px pink;
-  font-size: 5vh;
+  /* font-size: 3vw; */
 }
 h3{
   color: darkblue;
   text-shadow: 0.5px 0.5px skyblue;
-  font-size: 3vh;
+  /* font-size: 2vw; */
 }
 
 /* section{
@@ -117,7 +117,7 @@ figure.header-image, img.header-image{
 
 img.book{
   width: 25vw;
-  min-width: 10px;
+  min-width: 20px;
   float: right;
 }
 
@@ -197,10 +197,10 @@ em{
 
 span.book-title{
   color: orangered;
-  font-size: 6vh;
+  font-size: 4vh;
 }
 
 span.author{
   color: orangered;
-  font-size: 4vh;
+  font-size: 2vh;
 }
