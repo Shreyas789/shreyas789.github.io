@@ -35,12 +35,12 @@ h3{
   font-size: 3vh;
 }
 
-section{
+/* section{
   padding-top: 1vw;
-}
+} */
 
 div.float-container {
-  padding-top: 5vh;
+  padding-top: 1vh;
   padding-bottom: 2vh;
   width: 100%;
   float: left;
@@ -53,6 +53,7 @@ div.float-child {
 
 div.image-in-text, figure.image-in-text{
   width: 25vw;
+  min-width: 200px;
   float: right;
   padding-left: 3vw;
   padding-bottom: 3vw;
@@ -77,7 +78,7 @@ div.book-article-title{
   margin-bottom: 3vh;
 }
 
-a.read-more{
+a.read-more, button.about{
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -88,9 +89,10 @@ a.read-more{
   border: 1px solid darkorange;
   border-radius: 0.8vh;
 }
-a.read-more:hover{
+a.read-more:hover, button.about:hover, button.about:focus{
   box-shadow: 3px 3px brown;
   border: 1px solid brown;
+  outline: none;
 }
 a{
   text-decoration: none;
@@ -105,6 +107,7 @@ figure.acad-image{
 
 img.my-photo{
   width: 20vw;
+  min-width: 125px;
   border-radius: 25%;
   float: right;
 }
@@ -114,6 +117,7 @@ figure.header-image, img.header-image{
 
 img.book{
   width: 25vw;
+  min-width: 10px;
   float: right;
 }
 
@@ -133,6 +137,7 @@ button.big{
   min-height: 50px; 
   min-width: 180px;
   width:50%;
+  font-size: 3vh;
   margin-top: 2vh;
   padding-top: 0.5vh;
   padding-bottom: 0.5vh; 
