@@ -9,35 +9,21 @@ body{
   text-shadow: 0.25px 0.25px grey;
   background-color: white;
   color: rgba(60,40,40);
+  text-align: justify;
 }
-
-/* div.masthead{
-  border-bottom: 5px solid red;
-}
-ul.visible-links, li.masthead__menu-item{
-  font-family: system-ui;
-  color: red;
-} */
 
 h1{
   color: crimson;
   text-shadow: 2px 2px pink;
-  /* font-size: 5vw; */
 }
 h2{
   color: crimson;
   text-shadow: 1px 1px pink;
-  /* font-size: 3vw; */
 }
 h3{
   color: darkblue;
   text-shadow: 0.5px 0.5px skyblue;
-  /* font-size: 2vw; */
 }
-
-/* section{
-  padding-top: 1vw;
-} */
 
 div.float-container {
   padding-top: 1vh;
@@ -53,10 +39,15 @@ div.float-child {
 
 div.image-in-text, figure.image-in-text{
   width: 25vw;
-  min-width: 200px;
+  min-width: 170px;
   float: right;
-  padding-left: 3vw;
-  padding-bottom: 3vw;
+  padding-left: 2vw;
+  padding-bottom: 2vh;
+}
+img.book{
+  width: 25vw;
+  min-width: 150px;
+  float: right;
 }
 
 div.book-article{
@@ -111,15 +102,14 @@ img.my-photo{
   border-radius: 25%;
   float: right;
 }
-figure.header-image, img.header-image{
+img.header-image{
   width: 100%;
 }
-
-img.book{
-  width: 25vw;
-  min-width: 20px;
-  float: right;
+figure.header-image{
+  width: 100%;
+  margin-bottom: 2vh;
 }
+
 
 figcaption{
   width: 100%;
@@ -202,5 +192,5 @@ span.book-title{
 
 span.author{
   color: orangered;
-  font-size: 2vh;
+  font-size: 3vh;
 }
