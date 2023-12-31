@@ -60,8 +60,9 @@ div.book-article{
   float: left;
   border: 2px solid  rgba(40,40,80);
   border-radius: 1vw;
-  padding: 3vw;
-  margin: 2vh;
+  padding: 2vw;
+  margin-top: 2vh;
+  margin-right: 1vh;
 }
 
 div.book-article-title{
