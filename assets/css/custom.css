@@ -194,6 +194,7 @@ em{
 span.book-title{
   color: orangered;
   font-size: 5vh;
+  text-align: left;
 }
 
 span.author{
