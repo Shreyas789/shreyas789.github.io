@@ -35,11 +35,13 @@ div.float-container {
   padding-bottom: 2vh;
   width: 100%;
   float: left;
+  text-align: left;
 }
 
 div.float-child {
     width: 50%;
     float: left;
+    text-align: left;
 }
 
 div.image-in-text, figure.image-in-text{
