@@ -220,6 +220,15 @@ div.project{
   margin-bottom: 2vh;
 }
 
+div.project-title{
+  color: crimson;
+  text-shadow: 1px 1px pink;
+  font-weight: bold;
+  font-size: 2.75vh;
+  margin-bottom: 3vh;
+  text-align: left;
+}
+
 /* img.project{
   height: 10vh;
 } */
