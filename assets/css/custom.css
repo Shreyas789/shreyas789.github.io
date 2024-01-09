@@ -205,3 +205,21 @@ span.author{
   color: orangered;
   font-size: 3vh;
 }
+
+
+div.project{
+  background-color: rgb(240,255,255);
+  width: 98%;
+  min-width: 300px;
+  float: left;
+  border: 2px solid  rgba(40,40,80);
+  border-radius: 1vw;
+  padding: 2vw;
+  margin-top: 2vh;
+  margin-right: 1vh;
+  margin-bottom: 2vh;
+}
+
+/* img.project{
+  height: 10vh;
+} */
