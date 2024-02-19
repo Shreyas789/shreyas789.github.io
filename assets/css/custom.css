@@ -81,25 +81,25 @@ div.book-article-title{
   text-align: left;
 }
 
-a.read-more, button.about, button.about:focus{
+a.read-more, button.about{
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
   padding: 1vh 2.5vh 1vh;
-  background-color: slateblue;
-  color: white;
+  background-color: lightgray;
+  color: black;
   text-transform: uppercase;
   border: 1px solid ;
   border-radius: 0.8vh;
   outline: none;
 }
-a.read-more:hover, button.about:hover{
-  box-shadow: 3px 3px skyblue;
-  border: 1px solid skyblue;
+a.read-more:hover,a.read-more:focus , button.about:hover, button.about:focus{
+  box-shadow: 3px 3px gray;
+  border: 1px solid gray;
   outline: none;
   font-weight: bold;
 }
-a{
+a.hover{
   text-decoration: none;
   color: cyan;
 }
@@ -201,13 +201,13 @@ em{
 }
 
 span.book-title{
-  color: orangered;
+  color: cyan;
   font-size: 5vh;
   text-align: left;
 }
 
 span.author{
-  color: orangered;
+  color: cyan;
   font-size: 3vh;
 }
 
