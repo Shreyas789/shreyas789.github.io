@@ -181,12 +181,12 @@ button.recc-genre{
 button.recc-genre:hover{
   outline: none;
   background-color:  rgb(150, 150, 255);
-  box-shadow: 3px 3px darkcyan;
+  box-shadow: 1px 1px darkcyan;
   font-weight: bold;}
 button.recc-genre:focus{
   outline: none;
   background-color:  rgb(150, 150, 255);
-  box-shadow: 3px 3px darkcyan;
+  box-shadow: 1px 1px darkcyan;
   font-weight: bold;
   text-decoration: underline;
 }
