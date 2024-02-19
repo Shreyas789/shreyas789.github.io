@@ -204,6 +204,7 @@ span.book-title{
   color: cyan;
   font-size: 5vh;
   text-align: left;
+  text-transform: uppercase;
 }
 
 span.author{
