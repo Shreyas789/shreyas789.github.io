@@ -236,6 +236,6 @@ div.project-title{
   text-align: left;
 }
 
-/* img.project{
-  height: 10vh;
-} */
+button.dropdown{
+  display: none;
+}

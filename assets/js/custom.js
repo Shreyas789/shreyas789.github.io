@@ -39,3 +39,13 @@ function toggleElement(clicked, ids) {
         }
     }
 }
+
+function dropdown(span_id, block_id){
+    var x = document.getElementById(span_id);
+    if (x.innerHTML == '▷'){
+        x.innerHTML = '▽';
+    }else{
+        x.innerHTML = '▷';
+    }
+    showElement(block_id);
+}
