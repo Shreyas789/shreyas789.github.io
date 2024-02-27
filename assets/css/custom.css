@@ -61,12 +61,12 @@ img.book{
 }
 
 div.book-article{
-  background-color: #444455;
+  background-color: #222222;
   width: 100%;
   min-width: 300px;
   float: left;
   border: 2px solid  whitesmoke;
-  border-radius: 1vw;
+  border-radius: 0.5vw;
   padding: 2vw;
   margin-top: 2vh;
   margin-right: 1vh;
@@ -76,16 +76,30 @@ div.book-article-title{
   color: lightskyblue;
   /* text-shadow: 1px 1px pink; */
   /* font-weight: bold; */
-  font-size: 3vh;
+  font-size: 3.5vh;
   margin-bottom: 3vh;
   text-align: left;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-a.read-more, button.about{
+button.about{
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
   padding: 1vh 2.5vh 1vh;
+  background-color: lightgray;
+  color: black;
+  text-transform: uppercase;
+  border: 1px solid ;
+  border-radius: 0.8vh;
+  outline: none;
+}
+a.read-more{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 0.5vh 2.5vh 0.5vh;
   background-color: lightgray;
   color: black;
   text-transform: uppercase;
@@ -171,22 +185,22 @@ button.recc-genre{
   float: left;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: floralwhite;
+  background-color: #AAAACC;
   cursor: pointer;
   margin-right: 2vw;
   margin-bottom: 1.5vh;
-  padding: 1vh;
-  box-shadow: 1px 1px darkcyan;
+  padding: 0.6vh;
+  box-shadow: 0.5px 0.5px darkcyan;
 }
 button.recc-genre:hover{
   outline: none;
   background-color:  rgb(150, 150, 255);
-  box-shadow: 1px 1px darkcyan;
+  box-shadow: 0.5px 0.5px darkcyan;
   font-weight: bold;}
-button.recc-genre:focus{
+button.recc-genre:focus,button.recc-genre:active{
   outline: none;
   background-color:  rgb(150, 150, 255);
-  box-shadow: 1px 1px darkcyan;
+  box-shadow: 0.5px 0.5px darkcyan;
   font-weight: bold;
   text-decoration: underline;
 }

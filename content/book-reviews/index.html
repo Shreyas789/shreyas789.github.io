@@ -17,21 +17,22 @@ For a complete list of books which I have read, you can check out my <a href="ht
 
 </section>
   
-<section>
-<!--   <div class = "float-container"> -->
+<!-- <section>
     <div class="float-child">
       <button class="big" onclick="toggleElement('reviews',['reviews','recommendations'])">Reviews</button>
     </div>
     <div class="float-child">
       <button class="big" onclick="toggleElement('recommendations',['reviews','recommendations'])">Recommendations</button>
     </div>
-<!--   </div> -->
-</section>
+</section> -->
+<br>
 
-<br><br>
+<button class="about" onclick="dropdown('reccs-arrow','reccs')"><span id="reccs-arrow">▶</span> Recommendations</button>
 
-<section id='recommendations' style="display: none;">
-  <h2>Recommendations</h2>
+<br>
+
+<section id='reccs' style="display: none;">
+  <!-- <h2>Recommendations</h2> -->
   
   <h3>Non-fiction</h3>
 
@@ -158,13 +159,14 @@ For a complete list of books which I have read, you can check out my <a href="ht
         <li><em>Siddhartha</em>, by Herman Hesse</li>
       </ul>
     </div>
-
-    
-    
+   
 </section>
 
+<br>
+<button class="about" onclick="dropdown('reviews-arrow','reviews')"><span id="reviews-arrow">▶</span> Reviews</button>
+<hr>
 <section id='reviews' style="display: none;">
-<h2>Review Articles</h2>
+<!-- <h2>Review Articles</h2> -->
   I have compiled all book reviews under various categories with an article for each. Some books might be present in multiple articles.   
   <h3>Articles with short reviews</h3>
   <ul>
