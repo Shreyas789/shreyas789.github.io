@@ -58,8 +58,14 @@ img.book{
   width: 25vw;
   min-width: 150px;
   float: right;
+  opacity: 0.5;
 }
-
+img.book:hover{
+  width: 25vw;
+  min-width: 150px;
+  float: right;
+  opacity: 1;
+}
 div.book-article{
   background-color: #222222;
   width: 100%;
@@ -67,21 +73,19 @@ div.book-article{
   float: left;
   border: 2px solid  whitesmoke;
   border-radius: 0.5vw;
-  padding: 2vw;
+  padding: 0vw 2vw 2vw;
   margin-top: 2vh;
   margin-right: 1vh;
 }
 
-div.book-article-title{
+h4.book-article-title{
   color: lightskyblue;
   /* text-shadow: 1px 1px pink; */
   /* font-weight: bold; */
-  font-size: 3.5vh;
-  margin-bottom: 3vh;
+  /* margin-bottom: 3vh; */
   text-align: left;
   text-transform: uppercase;
   text-decoration: underline;
-  font-family: 'Times New Roman', Times, serif;
 }
 button.about{
   -webkit-appearance: button;
@@ -99,7 +103,7 @@ a.read-more{
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-  padding: 0.5vh 2.5vh 0.5vh;
+  padding: 0.1vh 2.5vh 0.1vh;
   background-color: lightgray;
   color: black;
   text-transform: uppercase;
@@ -107,15 +111,21 @@ a.read-more{
   border-radius: 0.8vh;
   outline: none;
 }
+h5{
+  margin: 0.5vh 2vh 0.5vh;
+}
 a.read-more:hover,a.read-more:focus , button.about:hover, button.about:focus{
   box-shadow: 3px 3px gray;
   border: 1px solid gray;
   outline: none;
   font-weight: bold;
 }
+a{
+  color:aquamarine;
+}
 a.hover{
   text-decoration: none;
-  color: cyan;
+  color: lightgreen;
 }
 
 figure.acad-image{
@@ -152,11 +162,10 @@ figcaption a{
   color: gray;
 }
 
-button.big{
+/* button.big{
   min-height: 40px; 
   min-width: 160px;
   width:50%;
-  /* font-size: 3vh; */
   margin-top: 2vh;
   padding-top: 0.5vh;
   padding-bottom: 0.5vh; 
@@ -179,7 +188,7 @@ button.big:focus{
   box-shadow: 2px 2px darkcyan;
   font-weight: bold;
   text-decoration: underline;
-}
+} */
 
 button.recc-genre{
   float: left;
@@ -214,41 +223,51 @@ em{
   font-style: italic;
 }
 
-span.book-title{
-  color: cyan;
-  font-size: 5vh;
+h1.book-title{
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightskyblue;
   text-align: left;
   text-transform: uppercase;
+  text-decoration: underline;
+  margin: 1vw 0vw 0vw;
 }
 
-span.author{
-  color: cyan;
-  font-size: 3vh;
+h3.author{
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightskyblue;
   text-transform: uppercase;
+  margin: 0vw 0vw 0vw;
 }
 
 
 div.project{
-  background-color:  #444455;
+  background-color:  #222222;
   width: 98%;
   min-width: 300px;
   float: left;
-  border: 2px solid  rgba(40,40,80);
-  border-radius: 1vw;
-  padding: 2vw;
-  margin-top: 2vh;
-  margin-right: 1vh;
-  margin-bottom: 2vh;
+  border: 2px solid  whitesmoke;
+  border-radius: 0.5vw;
+  padding: 2vw 2vw 1vw;
+  margin: 2vh 0vh 1vh;
 }
 
-div.project-title{
+h4.project-title{
   color: lightskyblue;
   /* text-shadow: 1px 1px pink; */
-  font-weight: bold;
+  /* font-weight: bold;*/
   font-size: 2.75vh;
-  margin-bottom: 3vh;
+  margin: 1vh 2vh 3vh 0vh; /*top right bottom left */
   text-align: left;
+  text-transform: uppercase;
 }
+
+/* div.project-image{
+  width: 25vw;
+  min-width: 170px;
+  float: right;
+  padding-left: 2vw;
+  padding-bottom: 2vh;
+} */
 
 button.dropdown{
   display: none;
