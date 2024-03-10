@@ -1,0 +1,58 @@
+---
+layout: single
+author_profile: true
+---
+
+<h1>Image Enhancer GUI</h1>
+
+<div class="image-in-text">
+    <img src="./../EE610_Project.png" alt="Genre classification image">
+</div>
+
+<h6><a href="./EE610_Project.pdf">REPORT (Project)</a> | <a href="./EE610_Project.pdf"> REPORT (Asgn 1)</a> | <a href="https://github.com/Shreyas789/EE-610-Image-Enhancer-GUI/tree/main">GITHUB</a></h6>
+
+<br>
+
+<b>Python libraries used</b>: Tkinter, OpenCV, Numpy
+
+<br><br>
+
+<p>This was a course project done as a part of the course <b>EE 610: Image Processing</b> by Prof. Amit Sethi (Fall 2021 offering). The project was done in two parts, the first one being an assignment (Assignment 1) and the other being a more detailed component (Project)</p>
+
+<p>Assignment 1 (an individual assignment) involved coding a GUI for loading, editing and saving an image from/to the local machine. I used the Python library tkinter to develop the GUI. This was followed by programming image operations like histogram equalization, gamma correction, binary thresholding, blurring and sharpening. Each of these was coded from scratch (using only Numpy). The GUI also contains functionality for Undo-ing the last action and Reset-ing the image to the original form. This was implemented using a stack data structure implemented with global variables in Python.</p>
+
+<p>The Project was done in a group of 3. We coded a Canny Edge Detection system for images from scratch (using only Numpy) and integrated it into the previously developed GUI from Assignment 1. We also implemented deep learning based image superresolution using residual learning and integrated it into the GUI. In addition to this, we also added morphological operations such as opening and closing to our set of operations.</p>
+
+<p>For the code for assignment 1 and project, please check <a href="https://github.com/Shreyas789/EE-610-Image-Enhancer-GUI/tree/main">this</a> repository. The GUI screenshot and some sample outputs using our operations are shown here for illustration:</p>
+
+<figure>
+    <img src="./gui.png">
+    <caption>The Image Enhancer GUI developed in Assignment 1</caption>
+</figure>
+
+<figure>
+    <img src="./gamma.png">
+    <caption>Example image enhanced using gamma correction (left: original, middle: gamma = 4, right: gamma = 0.5). For gamma > 1, the image becomes darker, and for gamma < 1, it becomes lighter. </caption>
+</figure>
+
+<figure>
+    <img src="./chota_bheem_canny.png">
+    <caption>Canny edge detection including gradient thresholding on a sample image</caption>
+</figure>
+
+<figure>
+    <img src="./bird_canny.png">
+    <caption>Canny edge detection including gradient thresholding on a sample image</caption>
+</figure>
+
+<figure>
+    <img src="./superresolution.png">
+    <caption>Image Enhanced using DL-based Superresolution</caption>
+</figure>
+
+<figure>
+    <img src="./morphological.png">
+    <caption>Image edited using morphological erosion and dilation</caption>
+</figure>
+
+
