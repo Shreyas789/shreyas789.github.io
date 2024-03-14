@@ -1,0 +1,41 @@
+---
+layout: single
+author_profile: true
+---
+
+<h1>Audio-Gesture Correspondence in Hindustani Raga Alap Singing</h1>
+
+<div class="image-in-text">
+    <img src="./thumbnail_ismir2023.png" alt="Genre classification image">
+  </div>
+
+<h6>Publication:</h6>
+
+<b>S. Nadkarni</b>, S. Roychowdhury, P. Rao, M. Clayton, "Exploring the Correspondence of Melodic Contour with Gesture in Raga Alap Singing", International Society for Music Information Retrieval, 2023, Milan, Italy.*<br>
+*Nominated for the <b>Best Paper Award</b>
+
+<br><br>
+
+<p>This work is being done as a part of my Dual Degree Masters Thesis at <a href="https://www.ee.iitb.ac.in/course/~daplab/index.html">Digital Audio Processing Lab, IIT Bombay</a>, under the supervision of <a href="https://www.ee.iitb.ac.in/wiki/faculty/prao">Prof. Preeti Rao</a>. We are working towards a journal paper submission for TISMIR 2024 (Transactions of International Society for Music Information Retrieval), the submission being in June 2024. That submission is aimed at being an extended detailed version of our 2023 conference paper.</p>
+
+<h6><a href="https://ismir2023program.ismir.net/poster_64.html">Paper, Poster and Video</a></h6>  
+<h6><a href="https://github.com/sujoyrc/hindustani_raga_dataset_processing/tree/main">Github Repo for the constructed dataset</a></h6>
+
+<br>
+
+<b>Python libraries used</b>: Dtaidistance, Parselmouth, Scikit-Learn, Pandas, Numpy
+<br><br>
+<b>Other Software used</b>: Audacity 
+<br><br>
+
+<p>This project explored correspondence between manual gesture and melodic contour in Hindustani classical music performances. We constructed a dataset of audiovisual recordings of Hindustani vocal music comprising 9 ragas (a raga is a melodic framework in classical music) sung by 11 expert performers. From these audiovisual recordings we extracted time series for the pitch contour (audio) using Parselmouth and wrist keypoints (gesture) using OpenPose keypoint estimation. With the automatic segmentation of the audiovisual time series based on analyses of the extracted pitch contour, we study whether melodic similarity implies gesture similarity.</p>
+
+<p>We develop two experiments in our work:
+    <ol>
+        <li><em>Stable Note Classification (Bottom-Up Task)</em>: We segment the pitch contours into stable and non-stable notes and check whether we can use the corresponding gesture contours to predict whether a note is stable or not. Our results indicate significantly high performance (highest being 89% for one of the singers).</li>
+        <li><em>Raga Phrase Detection using DTW (Top-Down Task)</em>: We use Dynamic Time Warping (DTW) based subsequence-search on the audio pitch contour to find raga-characteristic phrases in three of the ragas. Then we check whether the corresponding gesture segments can be used to predict whether a given phrase is Like or Unlike the characteristic phrases. Results indicate performance significantly better than chance.</li>
+    </ol>
+    Our results indicate that specific representations of gesture kinematics can predict high-level melodic features such as held notes and raga-characteristic motifs significantly better than chance.
+</p>
+
+<p>To know more, please check out our <a href="https://ismir2023program.ismir.net/poster_64.html">paper</a>.</p>
