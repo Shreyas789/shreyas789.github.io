@@ -21,12 +21,10 @@ author_profile: true
 <b>Python libraries used</b>: Hmmlearn, Librosa, Soundfile, Pandas, Numpy
 <br><br>
 
+<p>This was a course assignment for the course EE 679: Speech Processing. The dataset was a subset of Google Speech Commands Dataset. For the problem statement please refer to <a href="./CA3.pdf">this</a> document.</p>
 
+<p>From the audio files of the words, Mel Frequency Cepstral Coefficients (MFCCs) and their first differences (delta terms) and second differences (double delta terms) were computed using Librosa. Using these features, HMM models were trained using the package Hmmlearn. For each of the 10 words, one HMM was trained. To predict the word from an MFCC feature vector, the vecotr was passed to each of the 10 models and the one with the maximum log probability score under the models was chosen as the predicted word from the system.</p>
 
-<!-- <b>Other Software used</b>: Audacity, Praat
+<p>I got an accuracy of 89% (10-class classification) on clean test data and 81% on noise test data (seven types of noise files were provided as a part of the problem statement). For details of the implementation, please check the comments and codes in the two notebooks linked above.</p>
 
-<p>This was a Summer Undergraduate Research Project (SURP) which I had done under Prof. Preeti Rao, EE, IITB. It got published as a <b>Late-Breaking Demo (LBD)</b>, a forum for early research results and prototype systems in <a href="https://ismir2022.ismir.net/"><b>ISMIR 2022</b></a>.</p>
-
-<p>Genre classification models were trained using Support Vector Machines (SVMs) between three forms of Marathi vocal music each with a distinct socio-cultural context: devotional (Bhaktigeet), poetic (Bhavgeet) and folk dance (Lavani) were. A dataset of over 150 songs (around 50 per genre) was constructed from Youtube videos. We used timbre and chroma based features, such as spectral centroid, spectral bandwidth, MFCC and zero crossing rate for the 3-way classification. Special attention was given to whether the source-separated vocal and instrumental accompaniment components can help improve genre recognition accuracy over that obtained with acoustic features extracted from the original mix audio track.</p>
-
-<p>To know more, please check out our <a href="https://ismir2022program.ismir.net/lbd_365.html">paper</a>.</p> -->
+<p>The <a href="https://github.com/Shreyas789/EE679-Speech-Processing/tree/main">Github repository</a> also contains details (problem statements and codes/solutions) of other 2 assignments in the course (Source Filter Model for Vowel Generation, and Linear Predictive Analysis).</p>
