@@ -272,3 +272,8 @@ h4.project-title{
 button.dropdown{
   display: none;
 }
+
+span.book-title-small{
+  text-transform: uppercase;
+  color:aqua;
+}
