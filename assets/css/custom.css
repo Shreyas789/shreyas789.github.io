@@ -276,4 +276,5 @@ button.dropdown{
 span.book-title-small{
   text-transform: uppercase;
   color:aqua;
+  font-weight: bold;
 }
