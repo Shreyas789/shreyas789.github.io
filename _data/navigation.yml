@@ -9,15 +9,9 @@ main:
   - title: "CV"
     url: /content/CV_Shreyas.pdf
     description: My resumes
-  - title: "Reading"
-    description: Reviews and recommendations of my favourite books
-    url: /content/book-reviews
-  - title: "Blog"
-    url: https://shreyasnadkarni.medium.com
-    description: My articles on Medium related to life, philosophy and well-being
-  - title: "Quality Content"
-    url: /content/quality-content/
-    description: My favourite YouTube videos, blogs, and influential people
+  - title: "Trivia"
+    url: /content/trivia/
+    description: Informal section
     
 docs:
   - title: "Academics"
