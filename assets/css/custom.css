@@ -13,6 +13,9 @@ body{
   padding-right: 10px;
 }
 
+p{
+  color: black;
+}
 
 h1{
   color: #222222;
@@ -241,7 +244,7 @@ h3.author{
 
 
 div.project{
-  background-color:  #222222;
+  background-color:  #AAAAAA;
   width: 98%;
   min-width: 300px;
   float: left;
