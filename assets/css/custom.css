@@ -241,7 +241,7 @@ h3.author{
 
 
 div.project{
-  background-color:  #AAAAAA;
+  background-color:  #eeeeee;
   width: 98%;
   min-width: 300px;
   float: left;
@@ -252,7 +252,7 @@ div.project{
 }
 
 h4.project-title{
-  color: lightskyblue;
+  color: darkblue;
   /* text-shadow: 1px 1px pink; */
   /* font-weight: bold;*/
   font-size: 2.75vh;
