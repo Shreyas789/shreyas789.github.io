@@ -225,7 +225,7 @@ em{
 
 h1.book-title{
   font-family: Arial, Helvetica, sans-serif;
-  color: lightskyblue;
+  color: darkblue;
   text-align: left;
   text-transform: uppercase;
   text-decoration: underline;
@@ -234,7 +234,7 @@ h1.book-title{
 
 h3.author{
   font-family: Arial, Helvetica, sans-serif;
-  color: lightskyblue;
+  color: darkblue;
   text-transform: uppercase;
   margin: 0vw 0vw 0vw;
 }
