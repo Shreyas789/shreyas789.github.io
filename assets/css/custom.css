@@ -7,7 +7,7 @@ body{
   font-family: serif;
   /* font-size: 2.5vh; */
   /* text-shadow: 0.25px 0.25px grey; */
-  color: #dddddd;
+  color: #222222;
   text-align: justify;
   padding-left: 10px;
   padding-right: 10px;
@@ -15,19 +15,19 @@ body{
 
 
 h1{
-  color: #dddddd;
+  color: #222222;
   /* text-shadow: 1px 1px lightcyan; */
   text-align: left;
   text-transform: uppercase;
 }
 h2{
-  color: #dddddd;
+  color: #222222;
   /* text-shadow: 0.5px 0.5px lightblue; */
   text-align: left;
   text-transform: uppercase;
 }
 h3{
-  color: #dddddd;
+  color: #222222;
   /* text-shadow: 0.5px 0.5px lightskyblue; */
   text-align: left;
   text-transform: uppercase;
@@ -67,7 +67,7 @@ img.book:hover{
   opacity: 1;
 }
 div.book-article{
-  background-color: #222222;
+  background-color: #dddddd;
   width: 100%;
   min-width: 300px;
   float: left;
@@ -79,7 +79,7 @@ div.book-article{
 }
 
 h4.book-article-title{
-  color: lightskyblue;
+  color: #222222;
   /* text-shadow: 1px 1px pink; */
   /* font-weight: bold; */
   /* margin-bottom: 3vh; */
