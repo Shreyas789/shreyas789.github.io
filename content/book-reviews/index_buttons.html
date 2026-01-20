@@ -1,0 +1,217 @@
+---
+layout: single
+author_profile: true
+---
+
+<figure class="header-image">
+<img class="header-image" src="./library_books.png">
+<figcaption>Image Reference: <a href="https://images.app.goo.gl/H6NCo4JzvfTkcb2S8">Google Images</a></figcaption>
+</figure>
+
+<section>
+<h1>Book Recommendations and Reviews</h1>
+
+I am an avid reader. Books are an important part of my existence. I believe that the world would be a better place if more people read. Here is where I have compiled my book reviews and recommendations. Some of them are just recommendations, some of them have short reviews, while some have longer detailed reviews. Use the following buttons to navigate. I try to read across genres: from fantasy fiction to existential philosophy, and teenage spy novels to universal history. Happy reading!
+
+For a complete list of books which I have read, you can check out my <a href="https://www.goodreads.com/user/show/145913296-shreyas-nadkarni">Goodreads profile</a>. If you consider yourself a bibliophile like me, let's become friends on Goodreads!
+
+</section>
+  
+<!-- <section>
+    <div class="float-child">
+      <button class="big" onclick="toggleElement('reviews',['reviews','recommendations'])">Reviews</button>
+    </div>
+    <div class="float-child">
+      <button class="big" onclick="toggleElement('recommendations',['reviews','recommendations'])">Recommendations</button>
+    </div>
+</section> -->
+<br>
+
+<button class="about" onclick="dropdown('reccs-arrow','reccs')"><span id="reccs-arrow">▷</span> Recommendations</button>
+
+<br>
+
+<section id='reccs' style="display: none;">
+  <!-- <h2>Recommendations</h2> -->
+  
+  <h3>Non-fiction</h3>
+
+  <div class="float-container">
+    <button class="recc-genre" onclick="toggleElement('sci',['sci','psy','self','ther','phil'])">Popular Science</button>
+    <button class="recc-genre" onclick="toggleElement('psy',['sci','psy','self','ther','phil'])">Psychology</button>
+    <button class="recc-genre" onclick="toggleElement('self',['sci','psy','self','ther','phil'])">Self-Improvement</button>
+    <button class="recc-genre" onclick="toggleElement('ther',['sci','psy','self','ther','phil'])">Mental Health and Therapy</button>
+    <button class="recc-genre" onclick="toggleElement('phil',['sci','psy','self','ther','phil'])">Philosophy</button>
+  </div>
+
+  <div id='sci' style='display: none;'>
+    <ul>
+      <li><em>Sapiens: A Brief History of Humankind</em>, by Yuval Noah Harari</li>
+      <li><em>Homo Deus: A Brief History of Tomorrow</em>, by Yuval Noah Harari</li>
+      <li><em>The Body: A Guide for Occupants</em>, by Bill Bryson</li>
+      <li><em>AI Superpowers</em>, by Kai Fu Lee</li>
+      <li><em>The Magic of Reality</em>, by Richard Dawkins</li>
+      <li><em>The Brain: The Story of You</em>, by David Eagleman</li>
+      <li><em>Entangled Life</em>, by Merlin Sheldrake</li>
+      <li><em>Why Information Grows</em>, by Cesar Hidalgo</li>
+    </ul>
+  </div>
+
+
+  <div id='psy' style='display: none;'>
+    <ul>
+      <li><em>Thinking Fast and Slow</em>, by Daniel Kahneman</li>
+      <li><em>The Paradox of Choice</em>, by Barry Schwarz</li>
+      <li><em>The Psychology of Money</em>, by Morgan Housel</li>
+      <li><em>Thinking in Bets</em>, by Annie Duke</li>
+      <li><em>Stumbling on Happiness</em>, by Daniel Gilbert</li>
+    </ul>
+  </div>
+
+
+  <div id='self' style='display: none;'>
+    <ul>
+      <li><em>The Subtle Art of Not Giving a F*ck</em>, by Mark Manson</li>
+      <li><em>Atomic Habits</em>, by James Clear</li>
+      <li><em>The Seven Habits of Highly Effective People</em>, by Stephen Covey</li>
+      <li><em>So Good They Can't Ignore You</em>, by Cal Newport</li>
+      <li><em>The Four Agreements</em>, by Don Miguel Ruiz</li>
+    </ul>
+  </div>
+
+
+  <div id='ther' style='display: none;'>
+    <ul>
+      <li><em>Man's Search for Meaning</em>, by Viktor Frankl</li>
+      <li><em>The Happiness Trap</em>, by Russ Harris</li>
+      <li><em>Feeling Good: The New Mood Therapy</em>, by David Burns</li>
+      <li><em>Reasons to Stay Alive</em>, by Matt Haig</li>
+      <li><em>Self-Compassion</em>, by Kristin Neff</li>
+    </ul>
+  </div>
+
+  <div id='phil' style='display: none;'>
+    <ul>
+      <li><em>Meditations</em>, by Marcus Aurelius</li>
+      <li><em>Letters from a Stoic</em>, by Seneca</li>
+      <li><em>A Guide to the Good Life</em>, by William Irvine</li>
+      <li><em>The Heart of the Buddha's Teachings</em>, by Thich Nhat Hanh</li>
+      <li><em>The Happiness Hypothesis</em>, by Jonathan Haidt</li>
+      <li><em>Waking Up</em>, by Sam Harris</li>
+    </ul>
+  </div>
+
+  <h3>Fiction</h3>
+
+    <div class="float-container">
+      <button class="recc-genre" onclick="toggleElement('scifi',['scifi','fantasy','mystery','misc'])">Science Fiction</button>
+      <button class="recc-genre" onclick="toggleElement('fantasy',['scifi','fantasy','mystery','misc'])">Fantasy/Dystopia</button>
+      <button class="recc-genre" onclick="toggleElement('mystery',['scifi','fantasy','mystery','misc'])">Mystery/Thriller</button>
+      <button class="recc-genre" onclick="toggleElement('misc',['scifi','fantasy','mystery','misc'])">Miscellaneous</button>
+    </div>
+
+    <div id='scifi' style='display: none;'>
+      <ul>
+        <li><em>Project Hail Mary</em>, by Andy Weir</li>
+        <li><em>Remembrance of the Earth's Past Trilogy</em>, by Liu Cixin
+        <ol>
+          <li><em>The Three Body Problem</em></li>
+          <li><em>The Dark Forest</em></li>
+          <li><em>Death's End</em></li>
+        </ol>
+        </li>
+        <li><em>Ender's Game</em> (book 1 of Ender's saga), by Orson Scott Card</li>
+      </ul>
+    </div>
+
+    <div id='fantasy' style='display: none;'>
+      <ul>
+        <li><em>Mistborn: The Final Empire</em> (book 1 of Mistborn saga), by Brandon Sanderson</li>
+        <li><em>The Name of the Wind</em>, by Patrick Rothfuss</li>
+        <li><em>The Harry Potter Series</em>, by J.K.Rowling</li>
+        <li><em>The Hunger Games</em>, by Suzanne Collins</li>
+        <li><em>1984</em>, by George Orwell</li>
+        <li><em>The Midnight Library</em>, by Matt Haig</li>
+        <li><em>The Humans</em>, by Matt Haig</li>
+      </ul>
+    </div>
+
+    
+    <div id='mystery' style='display: none;'>
+      <ul>
+        <li><em>The Silent Patient</em>, by Alex Michaelides</li>
+        <li><em>The Hound of the Baskervilles</em>, by Arthur Conan Doyle</li>
+        <li><em>The Family Upstairs</em>, by Lisa Jewell</li>
+        <li><em>And Then There Were None</em>, by Agatha Christie</li>
+        <li><em>Murder on the Orient Express</em>, by Agatha Christie</li>
+        <li><em>The Murder of Roger Ackroyd</em>, by Agatha Christie</li>
+        <li><em>Hercule Poirot's Christmas</em>, by Agatha Christie</li>
+        <li>The <em>Alex Rider</em> series, by Anthony Horowitz</li>
+        <li><em>Magpie Murders</em>, by Anthony Horowitz</li>
+      </ul>
+    </div>
+    
+    
+    <div id='misc' style='display: none;'>
+      <ul>
+        <li><em>The Kite Runner</em>, by Khaled Hosseini</li>
+        <li><em>The Old Man and the Sea</em>, by Ernest Hemingway</li>
+        <li><em>Siddhartha</em>, by Herman Hesse</li>
+      </ul>
+    </div>
+   
+</section>
+
+<br>
+<button class="about" onclick="dropdown('reviews-arrow','reviews')"><span id="reviews-arrow">▷</span> Reviews</button>
+<hr>
+<section id='reviews' style="display: none;">
+<!-- <h2>Review Articles</h2> -->
+  I have compiled all book reviews under various categories with an article for each. Some books might be present in multiple articles.   
+  <h3>Review Articles</h3>
+  
+  <ul>
+      <li><a href="https://shreyas789.github.io/content/book-reviews/10-best-2023/">10 Best Reads of 2023</a></li>
+      <li><a href="./pop-science/">Popular Science, Technology, History</a></li>
+      <li><a href="./psychology/">Psychology, Decision Making</a></li>
+      <!-- <li><a href="./philosophy/">Philosophy, Spirituality</a></li> -->
+      <li><a href="./self-help/">Life Advice, Self Help</a></li>
+      <!-- <li><a>10 Best Reads of 2022</a></li>
+    <li><a>5 Best Reads of 2021</a></li>
+    <li><a>Best books on therapy, self-understanding and self-acceptance</a></li>
+    <li><a>10 Best Agatha Christie mysteries</a></li>
+    <li><a>Some books that I partially read (but are very good)</a></li>
+    <li><a>Novels with takeaway lessons</a></li> -->
+  </ul>
+
+  <!-- <h3>Genre-wise detailed reviews</h3>
+
+<div class="book-article">
+<a href="./pop-science/"><h4 class="book-article-title">Popular Science, Technology, History</h4></a>
+  Science has transformed human life beyond measure. The device that you are reading this on is built as a result of years of accumulation of technical knowledge and knowhow. Popular science books are some of the most intelligently written...<br><br>
+<a class="read-more" href="./pop-science/"><h5>Read More &#x21E8;</h5></a>
+</div>
+  
+  <div class="book-article">
+  <a href="./psychology/"><h4 class="book-article-title">Psychology, Decision Making</h4></a>
+  From day-to-day stuff to life-defining decisions, decision-making is a never-ending phenomenon of conscious existence. If you are reading this, you are choosing to read this instead of doing something else. Everything we do in life is essentially...<br><br>
+<a class="read-more" href="./psychology/"><h5>Read More &#x21E8;</h5></a>
+</div>
+        
+<div class="book-article">
+<a href="./philosophy/"><h4 class="book-article-title">Philosophy, Spirituality</h4></a>
+      Living in a world that is getting more and more complicated day by day, having a good understanding of our values and principles, knowing how to live, what is good and what is bad have compounding benefits. In our material world that focuses on...<br><br>
+    <a class="read-more" href="./philosophy/"><h5>Read More &#x21E8;</h5></a>
+</div>
+
+<div class="book-article">
+ <a href="./self-help/"><h4 class="book-article-title">Life advice, Self-Help</h4></a>
+      Reading self-improvement books can significantly enhance one's outlook towards life. However, there are thousands of self-help books out there, and a lot of them give generic advice on how one should live. Unfortunately, there is lack of... <br><br>
+      <a class="read-more" href="./self-help/"><h5>Read More &#x21E8;</h5></a>
+</div> -->
+
+
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. -->
+        
+</section>
+
